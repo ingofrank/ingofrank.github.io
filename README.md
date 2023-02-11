@@ -1,6 +1,0 @@
-# Start
-
-## Projects
-
-## Repositories
-
