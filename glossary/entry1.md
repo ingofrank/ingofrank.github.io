@@ -2,7 +2,7 @@
 layout: page
 title: Entry 1
 permalink: /glossary/entry1/
-categories: Glossary Concept
+categories: [Glossary, Concept]
 tags: Definition, "Concept Map"
 ---
 
