@@ -5,9 +5,10 @@ theme: minima
 
 header_pages:
   - index.md
-  - about.md
   - portfolio.md
   - projects/project1.md
+  - glossary.md
+  - about.md
   
 name: Ingo Frank
 email: "frank@ios-regensburg.de"
