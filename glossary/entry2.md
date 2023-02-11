@@ -3,7 +3,7 @@ layout: page
 title: Entry 2
 permalink: /glossary/entry2/
 categories: Glossary, Concept
-tags: Definition, Example, Map
+tags: [Definition, Example, Map]
 ---
 
 # Glossary Entry 2
