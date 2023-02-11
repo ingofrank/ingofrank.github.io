@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: Entry 1
 permalink: /glossary/entry1/
 categories: [Glossary, Concept]
-tags: "Concept Map"
+tags: Definition, "Concept Map"
 ---
 
 # Glossary Entry 1
