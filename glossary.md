@@ -34,6 +34,7 @@ categories: [Glossary]
 {% endfor %}  <!-- cat -->
   </ul>
   
+<ul>
   {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
@@ -44,9 +45,9 @@ categories: [Glossary]
 {% endfor %}
 
 {% for p in site.pages %}
-   {% if p.categories contains 'Ontology' %}
-     * [{{ p.title }}]({{ p.url | absolute_url }})
+   {% if p.categories contains 'Glossary' %}
+      <li><a href="{{ p.url }}">{{ p.title }}</a></li>
    {% endif %}
 {% endfor %}
-
-
+</ul>
+  
