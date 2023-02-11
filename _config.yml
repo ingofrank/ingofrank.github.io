@@ -3,4 +3,7 @@ description: Ingo Frank GitHub Pages Projects and Repositories Overview
 
 theme: minima
  skin: dark
- 
+
+header_pages:
+  - about.md
+  - portfolio.md
