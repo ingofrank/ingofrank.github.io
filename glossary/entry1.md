@@ -2,8 +2,8 @@
 layout: post
 title: Entry 1
 permalink: /glossary/entry1/
-categories: Glossary, Concept
-tags: Concept Map
+categories: [Glossary, Concept]
+tags: "Concept Map"
 ---
 
 # Glossary Entry 1
