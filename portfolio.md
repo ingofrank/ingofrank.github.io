@@ -4,7 +4,7 @@
 
 Writing SPARQL queries for all kinds of information retrieval purposes.
 
-```
+```sparql
 PREFIX dmlr: <http://digikar.eu/resource/>
 PREFIX dmlr-place: <http://digikar.eu/resource/place/>
 PREFIX dmlr-document: <http://digikar.eu/resource/document/>
