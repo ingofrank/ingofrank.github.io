@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
-categories: [Ontology, Glossary]
+categories: [Ontology]
 ---
 
 # Portfolio
