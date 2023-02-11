@@ -2,7 +2,6 @@
 layout: page
 title: Glossary
 permalink: /glossary/
-categories: [Glossary]
 ---
 
 # Glossary
