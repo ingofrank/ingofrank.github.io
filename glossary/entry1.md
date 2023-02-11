@@ -1,3 +1,19 @@
-# Entry 1
+---
+layout: post
+title: Entry 1
+permalink: /glossary/entry1/
+categories: Glossary, Concept
+tags: Concept Map
+---
+
+# Glossary Entry 1
 
 Text about glossary entry one.
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
