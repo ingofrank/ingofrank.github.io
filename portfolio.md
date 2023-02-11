@@ -1,5 +1,8 @@
 ---
-categories: Ontology
+layout: page
+title: Portfolio
+permalink: /portfolio/
+categories: [Ontology]
 ---
 
 # Portfolio
