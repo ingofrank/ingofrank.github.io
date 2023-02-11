@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Entry 2
 permalink: /glossary/entry2/
 categories: Glossary, Concept
