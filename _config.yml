@@ -7,6 +7,7 @@ header_pages:
   - index.md
   - about.md
   - portfolio.md
+  - projects/project1.md
   
 name: Ingo Frank
 email: "frank@ios-regensburg.de"
