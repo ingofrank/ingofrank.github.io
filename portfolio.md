@@ -2,6 +2,8 @@
 
 ## SPARQL Queries
 
+Writing SPARQL queries for all kinds of information retrieval purposes.
+
 ```
 PREFIX dmlr: <http://digikar.eu/resource/>
 PREFIX dmlr-place: <http://digikar.eu/resource/place/>
