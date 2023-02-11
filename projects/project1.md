@@ -1,6 +1,7 @@
 ---
 title: Projects
 layout: page
+slug: project1
 permalink: /projects/project1/
 ---
 
