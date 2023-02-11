@@ -2,7 +2,7 @@
 layout: page
 title: Entry 2
 permalink: /glossary/entry2/
-category: Glossary
+categories: Glossary
 tags: Definition Example Map
 ---
 
