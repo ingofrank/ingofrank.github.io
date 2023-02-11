@@ -8,7 +8,7 @@ permalink: /glossary/
 
 <ul>
 {% for p in site.pages %}
-   {% if p.category contains 'Glossary' %}
+   {% if p.categories contains 'Glossary' %}
       <li><a href="{{ p.url }}">{{ p.title }}</a></li>
    {% endif %}
 {% endfor %}
