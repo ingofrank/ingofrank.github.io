@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Entry 2
-permalink: /glossary/entry1/
+permalink: /glossary/entry2/
 categories: Glossary, Concept
 tags: Map
 ---
@@ -35,5 +35,4 @@ Text about glossary entry two.
     }
   ]
 }
-```C-->D;
 ```
