@@ -7,3 +7,12 @@ theme: minima
 header_pages:
   - about.md
   - portfolio.md
+  
+author:
+  name: Ingo Frank
+  email: "frank@ios-regensburg.de"
+  
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/ingofrank" }
+    - { platform: twitter, user_url: "https://twitter.com/i_f" }
