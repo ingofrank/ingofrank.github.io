@@ -1,3 +1,7 @@
+---
+categories: Ontology
+---
+
 # Portfolio
 
 ## SPARQL Queries
