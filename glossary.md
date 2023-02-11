@@ -44,9 +44,8 @@ categories: [Glossary]
 {% endfor %}
 
 {% for p in site.pages %}
-   {% if p.categories contains page.category %}
+   {% if p.categories contains 'Ontology' %}
      * [{{ p.title }}]({{ p.url | absolute_url }})
-        <small>{{ p.excerpt }}</small>
    {% endif %}
 {% endfor %}
 
