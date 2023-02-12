@@ -1,0 +1,57 @@
+---
+title: Ontologie-Entwurfsmuster zur Modellierung von Punktkoordinaten eines Ortes
+layout: page
+permalink: /odp/centroid/
+categories: ODP
+---
+
+# Ontologie-Entwurfsmuster zur Modellierung von Punktkoordinaten eines Ortes
+
+Das Entwurfsmuster dient in erster Linie dazu, um Punktkoordinaten eines Ortes für die Darstellung von weiterer ortsbasierter Information über den Ort auf einer Karte. Die Ermittlung der Punktkoordinaten sollte nach einer Konvention erfolgen, wie dass z.B. die Position der Kirche als Zentrum eines Dorfs zur Bestimmung der Punktkoordinaten verwendet wird. Die Angbaen zur Quelle der Koordinaten (z.B. eine historische Karte) werden mit dem Entwurfsmuster für Quellenangaben erfasst. Sollte von der Konvention zur Ermittlung der Zentrumskoordinaten abgewichen werden müssen, sollte das entsprechend begründet in den Angaben vermerkt werden.
+
+## Schema-Diagramm
+
+
+## Beispieldaten
+
+
+
+## Competency Questions
+
+1. Zu welchen Orten liegen Punktkoordinaten vor?
+
+
+## SPARQL-Beispielabfragen
+
+```
+PREFIX dmlr: <http://digikar.eu/resource/>
+PREFIX dmlr-place: <http://digikar.eu/resource/place/>
+PREFIX dmlr-document: <http://digikar.eu/resource/document/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?place ?label ?point WHERE {
+  ?place a dmlo:Place ;
+    geo:hasCentroid/geo:asWKT ?point ;
+    rdfs:label ?label .
+}
+ORDER BY ?label
+```
+
+
+## OWL-Datei
+
+
+## SHACL-Constraints
+
+
+## Axiomatisierung
+
+
+## Hinweise auf ähnliche Entwurfsmuster
+
+https://opengeospatial.github.io/ogc-geosparql/geosparql11/spec.html#_property_geohascentroid
+
+
+## Relevante verfügbare Datensätze
