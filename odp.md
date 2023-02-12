@@ -34,3 +34,5 @@ Der Einfachheit halber befinden sich derzeit alle in SHACL repräsentierten Modu
 Erweiterbar sind auch die [Wissensorganisationssysteme](/kos/), die von den Entwurfsmustern z.B. zur Typisierung vonb Orten oder zur Klassifikation der Funktionen von Amtsträgern im Alten Reich vorgesehen sind.
 
 ![Schema-Diagramm](/img/dmlo.svg)
+
+Im Schema-Diagramm sind sowohl die Ontologie-Entwurfsmuster zur Modellierung der ortsbasierten Information (zentral für Arbeitspaket 2), als auch die zur Modellierung biographischer Daten, d.h. der Aktivitäten von historischen Personen benötigten Entwurfsmuster. Zur besseren Sichtbarkeit sind die Module auf den oben unter der Überschrift _Katalog der bisher im Projekt entstandenen Ontologie-Entwurfsmuster_ verlinkten strukturierten Dokumentationen der Ontologie-Entwurfsmuster im jeweiligen Schema-Diagramm auf die Datrstellung der für das Muster wesentlichen Klassen und Eigenschaften beschränkt.
