@@ -17,6 +17,8 @@ Das Entwurfsmuster dient in erster Linie dazu, um Punktkoordinaten eines Ortes f
 
 ## Beispieldaten
 
+Die Ortsdaten in der Datenbank des [HOV (Historische Ortsverzeichnis von Sachsen)](https://hov.isgv.de/) umfassen auch Punktkoordinaten und können bei der Aufbereitung und Konvertierung der Daten in das DigiKAR-Datenmodell mit dem Enturfsmustre für Punktkoordinaten eines Ortes modelliert werden:
+
 ```turtle
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -38,6 +40,52 @@ dmlr-place:hov_10001 a crm:E92_Spacetime_Volume ;
 dmlr-place:repsax_1766 a crm:E92_Spacetime_Volume ;
   rdfs:label "Abend" ;
   dct:identifier "1766" ;
+  owl:sameAs dmlr-place:hov_10001 .
+```
+
+
+## Competency Questions
+
+1. Zu welchen Orten liegen Punktkoordinaten vor?
+
+
+## SPARQL-Beispielabfragen
+
+```
+PREFIX dmlr: <http://digikar.eu/resource/>
+PREFIX dmlr-place: <http://digikar.eu/resource/place/>
+PREFIX dmlr-document: <http://digikar.eu/resource/document/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?place ?label ?point WHERE {
+  ?place a dmlo:Place ;
+    geo:hasCentroid/geo:asWKT ?point ;
+    rdfs:label ?label .
+}
+ORDER BY ?label
+```
+
+
+## OWL-Datei
+
+
+## SHACL-Constraints
+
+
+## Axiomatisierung
+
+
+## Hinweise auf ähnliche Entwurfsmuster
+
+- Die Klasse `E47 Spatial Coordinates` aus CRM könnte als Alternative in einem Entwurfsmuster verwendet werden.
+
+
+## Relevante verfügbare Datensätze
+
+- HOV-Datenbankdump
+
   owl:sameAs dmlr-place:hov_10001 .
 ```
 
