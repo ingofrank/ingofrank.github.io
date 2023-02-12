@@ -7,6 +7,10 @@ categories: [Ontology]
 
 # Portfolio
 
+## Schema Diagram
+
+![Class diagram](/img/dmlo-place-centroid.svg)
+
 ## SPARQL Queries
 
 Writing SPARQL queries for all kinds of information retrieval purposes.
