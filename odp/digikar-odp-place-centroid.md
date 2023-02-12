@@ -6,8 +6,6 @@ permalink: /odp/centroid/
 categories: ODP
 ---
 
-# Ontologie-Entwurfsmuster zur Modellierung von Punktkoordinaten eines Ortes
-
 Das Entwurfsmuster dient in erster Linie dazu, um Punktkoordinaten eines Ortes für die Darstellung von weiterer ortsbasierter Information über den Ort auf einer Karte. Die Ermittlung der Punktkoordinaten zur geographischen Verortung sollte nach einer Konvention erfolgen, wie dass z.B. die Position der Kirche als Zentrum eines Dorfs zur Bestimmung der Punktkoordinaten verwendet wird. Die Erfassung des Ortsmittelpunkts erfolgt praktischerweise anhand der Eigenschaft [`has centroid`](https://opengeospatial.github.io/ogc-geosparql/geosparql11/#hascentroi)]( aus der [GeoSPARQL-Ontologie](http://www.opengis.net/ont/geosparql). Die Angaben zur Quelle der Koordinaten (z.B. eine historische Karte) werden mit dem Entwurfsmuster für Quellenangaben erfasst. Sollte von der Konvention zur Ermittlung der Zentrumskoordinaten abgewichen werden müssen, sollte das entsprechend begründet in den Angaben vermerkt werden.
 
 ## Schema-Diagramm
@@ -70,6 +68,22 @@ ORDER BY ?label
 
 ## OWL-Datei
 
+
+## SHACL-Constraints
+
+
+## Axiomatisierung
+
+
+## Hinweise auf ähnliche Entwurfsmuster
+
+- Die Klasse `E47 Spatial Coordinates` aus der CRM-Ontologie könnte als -- vergleichsweise ähnlich einfache -- Alternative in einem Entwurfsmuster verwendet werden.
+- Das [Ontologie-Entwurfsmuster zur Modellierung der räumlichen Ausdehnung eines Ortes](/odp/presence/) kann verwendet werden, um ggf. Punktkoordinaten zu verschiedenen Zeiten sowie aus verschiedenen Quellen zu modellieren.
+
+
+## Relevante verfügbare Datensätze
+
+- HOV-Datenbankdump
 
 ## SHACL-Constraints
 
