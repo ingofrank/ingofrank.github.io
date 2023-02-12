@@ -4,7 +4,7 @@ title: Ontologie-Entwurfsmuster
 permalink: /odp/
 ---
 
-## Katalog der bisher im Projekt entstandenen Ontologie-Entwurdsmuster
+## Katalog der bisher im Projekt entstandenen Ontologie-Entwurfsmuster
 
 <ul>
 {% for p in site.pages %}
@@ -29,6 +29,8 @@ Sie insbesondere zu Schritt 1 und 2 die Dokumentation unserer Sammlung von Compe
 
 Im Prinzip ist das Datenmodell für DigiKAR ein CRM- & CRMgeo-Anwendungsprofil, das sich modular aus Ontologie-Entwurfsmustern zusammensetzt. Wir verwenden zur Beschreibung dieser Entwurfsmuster SHACL (SHApes Constraint Language). Aus der sehr umfangreichen und komplexen CRM-Ontologie und relevanter CRM-Erweiterungen wie CRMgeo oder auch FRBRoo können somit die für die speziellen Anforderungen benötigten Klassen und Eigenschaften ausgewählt und deren bei der Datenmodellierung möglichen bzw. erlaubten Zusammenhänge mit SHACL festgelegt werden.
 
-Der Einfachheit halber befinden sich derzeit alle in SHACL repräsentierten Module in einer SHACL-Datei (siehe folgendes Schema-Diagramm). Die [Ontologie-Entwurfsmuster](/odp/) können daher während der Projektlaufzeit bei Bedarf an einer zentralen Stelle erweitert oder angepasst werden, um ggf. bisher noch nicht unterstützte Anforderungen an die Datenmodellierung oder Datenbankabfragemöglichkeiten zu erfüllen.
+Der Einfachheit halber befinden sich derzeit alle in SHACL repräsentierten Module in einer SHACL-Datei (siehe folgendes Schema-Diagramm). Die Ontologie-Entwurfsmuster können daher während der Projektlaufzeit bei Bedarf an einer zentralen Stelle erweitert oder angepasst werden, um ggf. bisher noch nicht unterstützte Anforderungen an die Datenmodellierung oder Datenbankabfragemöglichkeiten zu erfüllen.
 
-Erweiterbar sind auch die [Wissensorganisationssysteme](/kos/), die von den Entwurfsmustern z.B. zur Typisierung vonb Orten oder zur Klassifikation der Funktionen von Amtsträgern im Alten Reich vorgesehen sind.  
+Erweiterbar sind auch die [Wissensorganisationssysteme](/kos/), die von den Entwurfsmustern z.B. zur Typisierung vonb Orten oder zur Klassifikation der Funktionen von Amtsträgern im Alten Reich vorgesehen sind.
+
+![Schema-Diagramm](/img/dmlo.svg)
