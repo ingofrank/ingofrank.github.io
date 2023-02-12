@@ -35,8 +35,55 @@ dmlr-place:hov_10001 a crm:E92_Spacetime_Volume ;
     crm:P70i_is_documented_in dmlr-document:hov ;
     geo:asWKT "POINT(12.408333 51.131944)" ] .
     
-dmlr-place:repsax_1766 a crm:E92_Spacetime_Volume ;
-  rdfs:label "Abend" ;
+  dmlr-document:hov a frbroo:F2_Expression ;
+    rdfs:label "Digitales Historisches Ortsverzeichnis von Sachsen" .
+    
+```
+
+
+## Competency Questions
+
+1. Zu welchen Orten liegen Punktkoordinaten vor?
+
+
+## SPARQL-Beispielabfragen
+
+```
+PREFIX dmlr: <http://digikar.eu/resource/>
+PREFIX dmlr-place: <http://digikar.eu/resource/place/>
+PREFIX dmlr-document: <http://digikar.eu/resource/document/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?place ?label ?point WHERE {
+  ?place a dmlo:Place ;
+    geo:hasCentroid/geo:asWKT ?point ;
+    rdfs:label ?label .
+}
+ORDER BY ?label
+```
+
+
+## OWL-Datei
+
+
+## SHACL-Constraints
+
+
+## Axiomatisierung
+
+
+## Hinweise auf ähnliche Entwurfsmuster
+
+- Die Klasse `E47 Spatial Coordinates` aus der CRM-Ontologie könnte als -- vergleichsweise ähnlich einfache -- Alternative in einem Entwurfsmuster verwendet werden.
+- Das [Ontologie-Entwurfsmuster zur Modellierung der räumlichen Ausdehnung eines Ortes](/odp/presence/) kann verwendet werden, um ggf. Punktkoordinaten zu verschiedenen Zeiten sowie aus verschiedenen Quellen zu modellieren.
+
+
+## Relevante verfügbare Datensätze
+
+- HOV-Datenbankdump
+
   dct:identifier "1766" ;
   owl:sameAs dmlr-place:hov_10001 .
 ```
