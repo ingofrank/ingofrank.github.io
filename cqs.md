@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sammlung von Competency Questions zum Entwurf von Datenmodellen für Ortsdaten und biographischen Daten in DigiKAR
-permalink: /cgs/
+permalink: /cqs/
 ---
 
 Die Auswahl an allgemeinen und für die Modellierung von Ortsdaten und biographischen Daten relevanten Competency Questions wird in Beschreibungslisten präsentiert:
